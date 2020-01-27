@@ -87,6 +87,7 @@ class MainWindow(QMainWindow, form_class):
         self.vdpPlot.autoRange()
 
     def export(self):
+        # https://github.com/pyqtgraph/pyqtgraph/issues/464
         exporter = pg.exporters.ImageExporter(self.vdpPlot.plotItem)
         exporter.parameters()['width'] = int(self.vdpPlot.frameGeometry().width())
         exporter.export(f'VdP plot mu = {self.mu}.png')
