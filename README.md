@@ -7,5 +7,10 @@ by new scipy/solve_ivp method with parameters. Trajectory and phase plot.
 ### Prerequisites
 
 ```
-pip install pyqt5 pyqt5-tools scipy pyqtgraph
+pip install pyqt5 scipy pyqtgraph
+```
+
+Or if you use Anaconda Distribution just install pyqtgraph
+```
+pip install pyqtgraph
 ```
