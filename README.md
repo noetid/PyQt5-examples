@@ -1,6 +1,6 @@
 ## PyQt5 examples
 Some of my learning PyQt5 examples. For plots the [PyQtGraph](http://www.pyqtgraph.org/) library is used.
-* 01 [Lissajous Figure](https://en.wikipedia.org/wiki/Lissajous_curve) - Plot Lissajous curve. Parameters can be changed easily by using sliders.
+* 01 [Lissajous Figure](https://github.com/pitelf/PyQt5-examples/blob/master/01%20Lissajous%20Figure/Lissajous_Screen.png) - Plot [Lissajous curve](https://en.wikipedia.org/wiki/Lissajous_curve). Parameters can be changed easily by using sliders.
 * 02 [Van der Pol oscillator](https://en.wikipedia.org/wiki/Van_der_Pol_oscillator) - solution of Van der Pol oscillator equation 
 by new scipy/solve_ivp method with parameters. Trajectory and phase plot.
 
