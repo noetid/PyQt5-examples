@@ -7,7 +7,7 @@ Some of my learning PyQt5 examples. For plots the [PyQtGraph](http://www.pyqtgra
 ### Prerequisites
 
 ```
-pip install pyqt5 scipy matplotlib pyqtgraph
+pip install pyqt5 pyqt5-tools scipy matplotlib pyqtgraph
 ```
 
 If you use Anaconda Distribution just install pyqtgraph
