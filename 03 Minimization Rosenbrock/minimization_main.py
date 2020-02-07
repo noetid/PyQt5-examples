@@ -77,7 +77,7 @@ class MainWindow(QMainWindow, form_class):
             res = minimize(self.rosenbrock, np.array([x0, y0]), method=self.cur_method, jac=self.grad,
                            hess=self.hess, tol=1e-6, callback=self.add_iterations)
             self.statusbar.showMessage(
-                f'Method: {self.cur_method}, Xmin = {res.x[0]:2.2f}, Ymin = {res.x[1]:2.2f}, f(x, y) = {res.fun:2.2f}')
+                f'Method: {self.cur_method}, Xmin = {res.x[0]:2.2f}, Ymin = {res.x[1]:2.2f}, f(Xmin, Ymin) = {res.fun:2.2f}')
             self.iterations = np.array(self.iterations)
             self.iter_points = self._dynamic_ax.plot(self.iterations[:, 0], self.iterations[:, 1], color='red',
                                                      marker='o', markerfacecolor='black')
