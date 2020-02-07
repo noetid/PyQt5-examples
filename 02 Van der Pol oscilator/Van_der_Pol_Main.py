@@ -32,7 +32,7 @@ class MainWindow(QMainWindow, form_class):
         super(MainWindow, self).__init__(*args)
         self.setWindowIcon(QIcon('Van_der_Pol_Main.ico'))
         self.setupUi(self)
-        self.statusbar.showMessage('Message in statusbar.')
+        #self.statusbar.showMessage('Message in statusbar.')
         self.lblEquation.setPixmap(QPixmap('vdp.bmp'))
         self.actionTrajectory_plot.setChecked(True)
         self.actionPhase_plot.setChecked(False)
