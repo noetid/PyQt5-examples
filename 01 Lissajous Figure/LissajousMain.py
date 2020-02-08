@@ -1,8 +1,9 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # coding=utf-8
 # @author: https://github.com/pitelf
 
 import ctypes
+import os
 import sys
 
 import numpy as np
