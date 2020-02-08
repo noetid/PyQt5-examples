@@ -14,7 +14,8 @@ from PyQt5.uic import loadUiType
 
 # show icon on taskbar https://stackoverflow.com/questions/1551605/
 myappid = 'Lissajous 0.1'  # arbitrary string
-ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+if os.name == 'nt':
+    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
 pg.setConfigOption('foreground', 'k')
 pg.setConfigOption('background', 'w')
