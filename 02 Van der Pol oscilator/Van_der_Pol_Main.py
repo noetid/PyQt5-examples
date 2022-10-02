@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # coding=utf-8
-# @author: https://github.com/pitelf
+# @author: https://github.com/noetid
 
 import ctypes
 import os
